@@ -13,8 +13,10 @@ package com.example.refactor.step04;
 @SuppressWarnings({"unused"})
 public class ExtractField {
 
+    public int anInt = 3;
+
     private void stringExtractConstant() {
-        System.out.println(3 - 1);
+        System.out.println(anInt - 1);
     }
 
 }

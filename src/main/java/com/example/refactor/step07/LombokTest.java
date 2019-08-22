@@ -13,5 +13,8 @@ public class LombokTest {
 
     private static final String NAME = "james";
     private final Object object;
+    private final Object object2 = new Object();
+
+
 
 }

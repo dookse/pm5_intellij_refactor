@@ -1,9 +1,9 @@
 package com.example.refactor.step0;
 
-// Command + Enter
-// Presentation Assistant
-// Refactor Menu
 // Actions
+// Presentation Assistant
+// Command + Enter
+// Refactor Menu
 
 public class Intro {
 

@@ -8,7 +8,11 @@ public class ExtractMethod2 {
 
     int extractMethod() {
         int sum = 10;
-        int size = 30;
+        return sum + getSum(30);
+    }
+
+    private int getSum(final int size) {
+        int sum = 0;
         for (int i = 0; i <= size; i++) {
             System.out.println("i = " + i);
             sum += i;
