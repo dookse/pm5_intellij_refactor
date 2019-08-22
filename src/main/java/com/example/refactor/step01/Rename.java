@@ -9,14 +9,14 @@ import lombok.extern.slf4j.Slf4j;
 public class Rename {
 
     // get file size
-    private static int getFileSize() {
-        int fileSize = 1024;
-        System.out.println(fileSize);
-        return fileSize;
+    private static long doSometing() {
+        long val = 1024;
+        System.out.println(val);
+        return val;
     }
 
     public static void main(String[] args) {
-        System.out.println(getFileSize());
+        System.out.println(doSometing());
     }
 
 }
