@@ -8,15 +8,11 @@ package com.example.refactor.step04;
 // Refactor > Extract > Parameter
 // Delegate via overloading method
 
-// Create Constructor in TDD
-
 @SuppressWarnings({"unused"})
 public class ExtractField {
 
-    public int anInt = 3;
-
     private void stringExtractConstant() {
-        System.out.println(anInt - 1);
+        System.out.println(3 - 1);
     }
 
 }
